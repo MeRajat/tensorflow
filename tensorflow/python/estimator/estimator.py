@@ -97,7 +97,7 @@ class Estimator(object):
   constructor enforces this). Subclasses should use `model_fn` to configure
   the base class, and may add methods implementing specialized functionality.
 
-  @compatibility(eager)
+  @compatibility(eager) :) 
   Estimators are not compatible with eager execution.
   @end_compatibility
   """
